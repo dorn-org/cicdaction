@@ -14,4 +14,3 @@ jobs:
         run: |
           curl -X POST "http://localhost:8080/job/ci-action-jenkin/build?token=${{ secrets.MY_JENKINS_TOKEN }}" \
             --user "user:11c6ba6972e1bd23d5be32e018ddeaa68f" \
-            
